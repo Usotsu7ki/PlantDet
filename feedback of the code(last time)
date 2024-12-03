@@ -1,0 +1,60 @@
+/home/kaga/anaconda3/envs/mingyang/bin/python /home/kaga/Desktop/mingyang/code/mingyang/PlantDetgpt.py 
+2024-12-03 12:54:09.314793: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-12-03 12:54:09.339772: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-12-03 12:54:09.691316: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-12-03 12:54:10.361409: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.377905: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.379127: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+Found 2167 images belonging to 6 classes.
+Found 543 images belonging to 6 classes.
+Found 543 images belonging to 6 classes.
+2024-12-03 12:54:10.426732: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.427980: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.429140: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.512594: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.513908: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.514924: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-12-03 12:54:10.515934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 12916 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4070 Ti SUPER, pci bus id: 0000:01:00.0, compute capability: 8.9
+Epoch 1/90
+2024-12-03 12:55:15.305077: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:432] Loaded cuDNN version 8600
+2024-12-03 12:55:16.340877: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:606] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2024-12-03 12:55:16.966567: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x8095e70 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-12-03 12:55:16.966582: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 4070 Ti SUPER, Compute Capability 8.9
+2024-12-03 12:55:16.969324: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:255] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-12-03 12:55:17.034421: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+541/541 [==============================] - 233s 195ms/step - loss: 1.8252 - accuracy: 0.2510 - Precision: 0.0194 - Recall: 0.0051 - F1: 0.0080 - Specificity: 0.9965 - val_loss: 1.4521 - val_accuracy: 0.5185 - val_Precision: 0.1481 - val_Recall: 0.0852 - val_F1: 0.1028 - val_Specificity: 1.0000
+Epoch 2/90
+541/541 [==============================] - 95s 176ms/step - loss: 1.5444 - accuracy: 0.4179 - Precision: 0.1627 - Recall: 0.0468 - F1: 0.0714 - Specificity: 0.9971 - val_loss: 1.2353 - val_accuracy: 0.5648 - val_Precision: 0.4877 - val_Recall: 0.2926 - val_F1: 0.3447 - val_Specificity: 0.9970
+Epoch 3/90
+541/541 [==============================] - 95s 176ms/step - loss: 1.3326 - accuracy: 0.5566 - Precision: 0.4809 - Recall: 0.1520 - F1: 0.2254 - Specificity: 0.9974 - val_loss: 1.0437 - val_accuracy: 0.7148 - val_Precision: 0.4938 - val_Recall: 0.3667 - val_F1: 0.4054 - val_Specificity: 0.9919
+Epoch 4/90
+541/541 [==============================] - 95s 176ms/step - loss: 1.2312 - accuracy: 0.6121 - Precision: 0.6228 - Recall: 0.2267 - F1: 0.3219 - Specificity: 0.9948 - val_loss: 0.8638 - val_accuracy: 0.8111 - val_Precision: 0.5167 - val_Recall: 0.4241 - val_F1: 0.4564 - val_Specificity: 0.9952
+Epoch 5/90
+541/541 [==============================] - 95s 176ms/step - loss: 1.0533 - accuracy: 0.7147 - Precision: 0.7954 - Recall: 0.3474 - F1: 0.4640 - Specificity: 0.9949 - val_loss: 0.7227 - val_accuracy: 0.8889 - val_Precision: 0.7377 - val_Recall: 0.6241 - val_F1: 0.6625 - val_Specificity: 0.9941
+Epoch 6/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.9015 - accuracy: 0.7984 - Precision: 0.8819 - Recall: 0.4669 - F1: 0.5891 - Specificity: 0.9958 - val_loss: 0.6594 - val_accuracy: 0.8759 - val_Precision: 0.8296 - val_Recall: 0.6963 - val_F1: 0.7396 - val_Specificity: 0.9933
+Epoch 7/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.8070 - accuracy: 0.8465 - Precision: 0.9259 - Recall: 0.5639 - F1: 0.6779 - Specificity: 0.9952 - val_loss: 0.5621 - val_accuracy: 0.9111 - val_Precision: 0.8710 - val_Recall: 0.7796 - val_F1: 0.8149 - val_Specificity: 0.9952
+Epoch 8/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.7427 - accuracy: 0.8608 - Precision: 0.9461 - Recall: 0.6265 - F1: 0.7312 - Specificity: 0.9956 - val_loss: 0.5250 - val_accuracy: 0.9444 - val_Precision: 0.9315 - val_Recall: 0.8037 - val_F1: 0.8462 - val_Specificity: 0.9974
+Epoch 9/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.6905 - accuracy: 0.8844 - Precision: 0.9569 - Recall: 0.6711 - F1: 0.7666 - Specificity: 0.9961 - val_loss: 0.4992 - val_accuracy: 0.9278 - val_Precision: 0.9519 - val_Recall: 0.8370 - val_F1: 0.8752 - val_Specificity: 0.9974
+Epoch 10/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.6359 - accuracy: 0.9075 - Precision: 0.9713 - Recall: 0.7346 - F1: 0.8178 - Specificity: 0.9966 - val_loss: 0.4985 - val_accuracy: 0.9463 - val_Precision: 0.9611 - val_Recall: 0.8556 - val_F1: 0.8927 - val_Specificity: 0.9967
+Epoch 11/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.6170 - accuracy: 0.9246 - Precision: 0.9652 - Recall: 0.7649 - F1: 0.8357 - Specificity: 0.9960 - val_loss: 0.4743 - val_accuracy: 0.9500 - val_Precision: 0.9642 - val_Recall: 0.8944 - val_F1: 0.9220 - val_Specificity: 0.9948
+Epoch 12/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.5952 - accuracy: 0.9283 - Precision: 0.9600 - Recall: 0.7942 - F1: 0.8551 - Specificity: 0.9949 - val_loss: 0.4707 - val_accuracy: 0.9370 - val_Precision: 0.9623 - val_Recall: 0.8907 - val_F1: 0.9180 - val_Specificity: 0.9941
+Epoch 13/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.5646 - accuracy: 0.9320 - Precision: 0.9717 - Recall: 0.8199 - F1: 0.8747 - Specificity: 0.9965 - val_loss: 0.4287 - val_accuracy: 0.9704 - val_Precision: 0.9864 - val_Recall: 0.9333 - val_F1: 0.9543 - val_Specificity: 0.9981
+Epoch 14/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.5440 - accuracy: 0.9385 - Precision: 0.9772 - Recall: 0.8400 - F1: 0.8907 - Specificity: 0.9965 - val_loss: 0.4796 - val_accuracy: 0.9519 - val_Precision: 0.9821 - val_Recall: 0.8963 - val_F1: 0.9279 - val_Specificity: 0.9970
+Epoch 15/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.5216 - accuracy: 0.9459 - Precision: 0.9792 - Recall: 0.8618 - F1: 0.9053 - Specificity: 0.9969 - val_loss: 0.4329 - val_accuracy: 0.9667 - val_Precision: 0.9809 - val_Recall: 0.9259 - val_F1: 0.9457 - val_Specificity: 0.9970
+Epoch 16/90
+541/541 [==============================] - 95s 176ms/step - loss: 0.5145 - accuracy: 0.9519 - Precision: 0.9820 - Recall: 0.8620 - F1: 0.9047 - Specificity: 0.9977 - val_loss: 0.4301 - val_accuracy: 0.9444 - val_Precision: 0.9673 - val_Recall: 0.9241 - val_F1: 0.9408 - val_Specificity: 0.9956
+136/136 [==============================] - 12s 51ms/step
+
+Process finished with exit code 0
+
